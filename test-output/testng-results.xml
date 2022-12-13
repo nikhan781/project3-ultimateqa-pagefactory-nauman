@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicking on Signin Button [[ChromeDriver: chrome on WINDOWS (f132fcbd013be07ce4486af1d77b1c8a)] -> xpath: //a[contains(text(),'Sign In')]]]]>
+    </line>
+    <line>
+      <![CDATA[The welcome Text is [[ChromeDriver: chrome on WINDOWS (f132fcbd013be07ce4486af1d77b1c8a)] -> xpath: //h2[contains(text(),'Welcome Back!')]]]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project3-ultimateqa-pagefactory-nauman/test-output/html/userShouldNavigateToLoginPageSuccessfullyTue_Dec_13_21_50_38_GMT_2022.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project3-ultimateqa-pagefactory-nauman/test-output/html/userShouldNavigateToLoginPageSuccessfullyTue_Dec_13_21_50_38_GMT_2022.jpg><img src=C:\Users\nik_7\IdeaProjects\project3-ultimateqa-pagefactory-nauman/test-output/html/userShouldNavigateToLoginPageSuccessfullyTue_Dec_13_21_50_38_GMT_2022.jpg height=200 width=200></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Signin Button [[ChromeDriver: chrome on WINDOWS (2e9a7ef43e7e702b27d8e6ed28677468)] -> xpath: //a[contains(text(),'Sign In')]]]]>
+    </line>
+    <line>
+      <![CDATA[Enter user name abc@gmail.com to username field [[ChromeDriver: chrome on WINDOWS (2e9a7ef43e7e702b27d8e6ed28677468)] -> id: user[email]]]]>
+    </line>
+    <line>
+      <![CDATA[Enter user name abc123 to username field [[ChromeDriver: chrome on WINDOWS (2e9a7ef43e7e702b27d8e6ed28677468)] -> name: user[password]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Login Button [[ChromeDriver: chrome on WINDOWS (2e9a7ef43e7e702b27d8e6ed28677468)] -> xpath: //button[contains(text(),'Sign in')]]]]>
+    </line>
+    <line>
+      <![CDATA[The error message is[[ChromeDriver: chrome on WINDOWS (2e9a7ef43e7e702b27d8e6ed28677468)] -> xpath: //li[contains(text(),'Invalid email or password.')]]]]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project3-ultimateqa-pagefactory-nauman/test-output/html/verifyTheErrorMessageTue_Dec_13_21_50_44_GMT_2022.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project3-ultimateqa-pagefactory-nauman/test-output/html/verifyTheErrorMessageTue_Dec_13_21_50_44_GMT_2022.jpg><img src=C:\Users\nik_7\IdeaProjects\project3-ultimateqa-pagefactory-nauman/test-output/html/verifyTheErrorMessageTue_Dec_13_21_50_44_GMT_2022.jpg height=200 width=200></img></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="testsuite" duration-ms="13248" started-at="2022-12-13T21:50:31 GMT" finished-at="2022-12-13T21:50:44 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="HomePageTest.userShouldNavigateToLoginPageSuccessfully()[pri:0, instance:com.ultimateqa.courses.testsuite.HomePageTest@646007f4]" name="userShouldNavigateToLoginPageSuccessfully" class="com.ultimateqa.courses.testsuite.HomePageTest"/>
+        <method signature="LoginPageTest.verifyTheErrorMessage()[pri:0, instance:com.ultimateqa.courses.testsuite.LoginPageTest@7e9a5fbe]" name="verifyTheErrorMessage" class="com.ultimateqa.courses.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="HomePageTest.userShouldNavigateToLoginPageSuccessfully()[pri:0, instance:com.ultimateqa.courses.testsuite.HomePageTest@646007f4]" name="userShouldNavigateToLoginPageSuccessfully" class="com.ultimateqa.courses.testsuite.HomePageTest"/>
+        <method signature="LoginPageTest.verifyTheErrorMessage()[pri:0, instance:com.ultimateqa.courses.testsuite.LoginPageTest@7e9a5fbe]" name="verifyTheErrorMessage" class="com.ultimateqa.courses.testsuite.LoginPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Regression Test" duration-ms="13248" started-at="2022-12-13T21:50:31 GMT" finished-at="2022-12-13T21:50:44 GMT">
+      <class name="com.ultimateqa.courses.testsuite.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ultimateqa.courses.testsuite.LoginPageTest@7e9a5fbe]" name="setUp" is-config="true" duration-ms="2902" started-at="2022-12-13T21:50:38 GMT" finished-at="2022-12-13T21:50:41 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="pageObjects()[pri:0, instance:com.ultimateqa.courses.testsuite.LoginPageTest@7e9a5fbe]" name="pageObjects" is-config="true" duration-ms="1" started-at="2022-12-13T21:50:41 GMT" finished-at="2022-12-13T21:50:41 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObjects -->
+        <test-method status="PASS" signature="verifyTheErrorMessage()[pri:0, instance:com.ultimateqa.courses.testsuite.LoginPageTest@7e9a5fbe]" name="verifyTheErrorMessage" duration-ms="2039" started-at="2022-12-13T21:50:41 GMT" finished-at="2022-12-13T21:50:43 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Signin Button [[ChromeDriver: chrome on WINDOWS (2e9a7ef43e7e702b27d8e6ed28677468)] -> xpath: //a[contains(text(),'Sign In')]]]]>
+            </line>
+            <line>
+              <![CDATA[Enter user name abc@gmail.com to username field [[ChromeDriver: chrome on WINDOWS (2e9a7ef43e7e702b27d8e6ed28677468)] -> id: user[email]]]]>
+            </line>
+            <line>
+              <![CDATA[Enter user name abc123 to username field [[ChromeDriver: chrome on WINDOWS (2e9a7ef43e7e702b27d8e6ed28677468)] -> name: user[password]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Login Button [[ChromeDriver: chrome on WINDOWS (2e9a7ef43e7e702b27d8e6ed28677468)] -> xpath: //button[contains(text(),'Sign in')]]]]>
+            </line>
+            <line>
+              <![CDATA[The error message is[[ChromeDriver: chrome on WINDOWS (2e9a7ef43e7e702b27d8e6ed28677468)] -> xpath: //li[contains(text(),'Invalid email or password.')]]]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project3-ultimateqa-pagefactory-nauman/test-output/html/verifyTheErrorMessageTue_Dec_13_21_50_44_GMT_2022.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project3-ultimateqa-pagefactory-nauman/test-output/html/verifyTheErrorMessageTue_Dec_13_21_50_44_GMT_2022.jpg><img src=C:\Users\nik_7\IdeaProjects\project3-ultimateqa-pagefactory-nauman/test-output/html/verifyTheErrorMessageTue_Dec_13_21_50_44_GMT_2022.jpg height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTheErrorMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ultimateqa.courses.testsuite.LoginPageTest@7e9a5fbe]" name="tearDown" is-config="true" duration-ms="624" started-at="2022-12-13T21:50:44 GMT" finished-at="2022-12-13T21:50:44 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ultimateqa.courses.testsuite.LoginPageTest -->
+      <class name="com.ultimateqa.courses.testsuite.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ultimateqa.courses.testsuite.HomePageTest@646007f4]" name="setUp" is-config="true" duration-ms="3751" started-at="2022-12-13T21:50:31 GMT" finished-at="2022-12-13T21:50:35 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="pageObjects()[pri:0, instance:com.ultimateqa.courses.testsuite.HomePageTest@646007f4]" name="pageObjects" is-config="true" duration-ms="14" started-at="2022-12-13T21:50:35 GMT" finished-at="2022-12-13T21:50:35 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObjects -->
+        <test-method status="PASS" signature="userShouldNavigateToLoginPageSuccessfully()[pri:0, instance:com.ultimateqa.courses.testsuite.HomePageTest@646007f4]" name="userShouldNavigateToLoginPageSuccessfully" duration-ms="2418" started-at="2022-12-13T21:50:35 GMT" finished-at="2022-12-13T21:50:37 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Signin Button [[ChromeDriver: chrome on WINDOWS (f132fcbd013be07ce4486af1d77b1c8a)] -> xpath: //a[contains(text(),'Sign In')]]]]>
+            </line>
+            <line>
+              <![CDATA[The welcome Text is [[ChromeDriver: chrome on WINDOWS (f132fcbd013be07ce4486af1d77b1c8a)] -> xpath: //h2[contains(text(),'Welcome Back!')]]]]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project3-ultimateqa-pagefactory-nauman/test-output/html/userShouldNavigateToLoginPageSuccessfullyTue_Dec_13_21_50_38_GMT_2022.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\nik_7\IdeaProjects\project3-ultimateqa-pagefactory-nauman/test-output/html/userShouldNavigateToLoginPageSuccessfullyTue_Dec_13_21_50_38_GMT_2022.jpg><img src=C:\Users\nik_7\IdeaProjects\project3-ultimateqa-pagefactory-nauman/test-output/html/userShouldNavigateToLoginPageSuccessfullyTue_Dec_13_21_50_38_GMT_2022.jpg height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldNavigateToLoginPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ultimateqa.courses.testsuite.HomePageTest@646007f4]" name="tearDown" is-config="true" duration-ms="615" started-at="2022-12-13T21:50:38 GMT" finished-at="2022-12-13T21:50:38 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ultimateqa.courses.testsuite.HomePageTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- testsuite -->
+</testng-results>
